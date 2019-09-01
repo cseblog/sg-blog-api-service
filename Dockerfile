@@ -1,5 +1,5 @@
 FROM golang:alpine
-ADD ./src/hello /go/src/hello
-WORKDIR /go/src/hello
-ENV PORT=3001
-CMD ["go", "run", "hello.go"]
+ADD ./src/main.go /go/src/main.go
+WORKDIR /go/src/
+ENV PORT=8080
+CMD ["go", "run", "main.go"]
