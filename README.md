@@ -1,6 +1,6 @@
-Running from local: Assume you have docker installation in local
+Running from local: Assuming you have docker installation in local machine
 -------------------
-git clone <repo url> 
+git clone https://github.com/cseblog/sg-blog-api-service.git
 cd sg-blog-api-service
 
 docker build . -t sg-blog-api-service
